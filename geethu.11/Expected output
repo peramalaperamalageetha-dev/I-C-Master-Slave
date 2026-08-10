@@ -1,0 +1,32 @@
+================================================
+             I2C MASTER / SLAVE
+                 TESTBENCH
+================================================
+
+-----------------------------------------------
+TEST 1 : MASTER WRITE
+-----------------------------------------------
+Slave Address = 0x50
+Master TX Data = 0xA5
+Slave RX Data = 0xA5
+MASTER WRITE TEST : PASS
+
+-----------------------------------------------
+TEST 2 : MASTER READ
+-----------------------------------------------
+Slave Address = 0x50
+Slave TX Data  = 0x3C
+Master RX Data = 0x3C
+MASTER READ TEST : PASS
+
+-----------------------------------------------
+TEST 3 : SECOND WRITE
+-----------------------------------------------
+Master TX Data = 0x55
+Slave RX Data = 0x55
+SECOND WRITE TEST : PASS
+
+================================================
+       I2C MASTER / SLAVE TEST : PASS
+       ALL TESTS PASSED SUCCESSFULLY
+================================================
